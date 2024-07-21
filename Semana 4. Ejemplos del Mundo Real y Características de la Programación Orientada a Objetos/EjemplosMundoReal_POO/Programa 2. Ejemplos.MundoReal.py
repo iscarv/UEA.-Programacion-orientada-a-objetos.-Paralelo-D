@@ -7,7 +7,7 @@ class Plato:
     def __str__(self):
         return f"{self.nombre}: {self.descripcion} - ${self.precio}"
 
-# Comienza la clase Restaurante (Abstracción: Representación de un restaurante)
+# Comienza la clase Restaurante (Abstraccion: Representación de un restaurante)
 class Restaurante:
     def __init__(self, nombre):
         self.nombre = nombre        # Atributo: Nombre del restaurante
@@ -24,7 +24,7 @@ class Restaurante:
     def buscar_plato(self, nombre_plato):
         return self.menu.get(nombre_plato, None)   # Método: Busca un plato por nombre en el menú
 
-# Comienza la clase Pedido (Abstracción: Representación de un pedido realizado por un cliente)
+# Comienza la clase Pedido (Abstraccion: Representación de un pedido realizado por un cliente)
 class Pedido:
     def __init__(self, cliente):
         self.cliente = cliente      # Atributo: Cliente que realiza el pedido
@@ -45,7 +45,7 @@ class Pedido:
         else:
             print(f"No hay platos en el pedido de {self.cliente.nombre}")
 
-# Comienza la clase Cliente (Abstracción: Representación de un cliente del restaurante)
+# Comienza la clase Cliente (Abstraccion: Representación de un cliente del restaurante)
 class Cliente:
     def __init__(self, nombre):
         self.nombre = nombre        # Atributo: Nombre del cliente

@@ -7,7 +7,7 @@ class FiguraGeometrica:
         Args:
         - color (str): El color de la figura.
         """
-        self.__color = color  # Encapsulación del color
+        self.__color = color  # Encapsulacion del color
 
     def obtener_color(self):
         """
@@ -31,8 +31,8 @@ class Rectangulo(FiguraGeometrica):  # <<--- HERENCIA
         - altura (float): La altura del rectángulo.
         """
         super().__init__(color)  # <<--- LLAMADA AL CONSTRUCTOR DE LA CLASE BASE (HERENCIA)
-        self.__ancho = ancho  # Encapsulación del ancho
-        self.__altura = altura  # Encapsulación de la altura
+        self.__ancho = ancho  # Encapsulacion del ancho
+        self.__altura = altura  # Encapsulacion de la altura
 
     def calcular_area(self):  # <<--- MÉTODO POLIMÓRFICO
         """
@@ -55,7 +55,7 @@ class Circulo(FiguraGeometrica):  # <<--- HERENCIA
         - radio (float): El radio del círculo.
         """
         super().__init__(color)  # <<--- LLAMADA AL CONSTRUCTOR DE LA CLASE BASE (HERENCIA)
-        self.__radio = radio  # Encapsulación del radio
+        self.__radio = radio  # Encapsulacion del radio
 
     def calcular_area(self):  # <<--- MÉTODO POLIMÓRFICO
         """

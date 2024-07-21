@@ -7,7 +7,7 @@ class Libro:
 
     def __str__(self):
         return f"{self.titulo} - {self.autor} ({self.genero}) - ${self.precio}"
-# Comienza la clase TiendaLibros (Abstracción: Representación de una tienda de libros)
+# Comienza la clase TiendaLibros (Abstraccion: Representación de una tienda de libros)
 class TiendaLibros:
     def __init__(self, nombre):
         self.nombre = nombre        # Atributo: Nombre de la tienda
@@ -27,7 +27,7 @@ class TiendaLibros:
                 if libro.genero == genero:
                     libros_genero.append(libro)
             return libros_genero  # Método: Retorna una lista de libros por género
-# Comienza la clase Persona (Abstracción: Representación de una persona que compra libros)
+# Comienza la clase Persona (Abstraccion: Representación de una persona que compra libros)
 class Persona:
     def __init__(self, nombre):
         self.nombre = nombre        # Atributo: Nombre de la persona
