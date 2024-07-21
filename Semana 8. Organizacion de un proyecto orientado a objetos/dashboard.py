@@ -25,7 +25,7 @@ def mostrar_menu():
         '4': 'Semana 2. Desarrollo de Ejemplos de Tecnicas de Programacion/Polimorfismo/polimorfismo.py',
         '5': 'Semana 3/Promedio semanal del clima. POO.py',
         '6': 'Semana 3/Promedio semanal del clima. Programacion Tradicional.py',
-        '7': 'Semana 4. Ejemplos del Mundo Real y Características de la Programación Orientada a Objetos/EjemplosMundoReal_POO/Programa 1. Ejemplos.MundoReal.py',
+        '7': 'Semana 4. Ejemplos del Mundo Real/EjemplosMundoReal_POO/Programa 1. Ejemplos.MundoReal.py',
         '8': 'Semana 4. Ejemplos del Mundo Real y Características de la Programacion Orientada a Objetos/EjemplosMundoReal_POO/Programa 2. Ejemplos.MundoReal.py',
         '9': 'Semana 5. (Tipos de datos, Identificadores)/Tipos de datos, Identificadores.py',
         '10': 'Semana 6. Clases, objetos, herencia, encapsulamiento y polimorfismo/(Semana 06). Clases, objetos, herencia, encapsulamiento y polimorfismo.py',
